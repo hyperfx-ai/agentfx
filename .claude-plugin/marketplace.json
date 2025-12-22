@@ -26,6 +26,15 @@
       "skills": [
         "./skills/startup-credits"
       ]
+    },
+    {
+      "name": "b2b-growth",
+      "description": "Proven B2B SaaS growth tactics across paid ads, organic, and outbound",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/b2b-growth"
+      ]
     }
   ]
 }

@@ -30,6 +30,7 @@ Or install in Claude Code:
 /plugin marketplace add hyper/agentfx
 /plugin install trading-skills@agentfx-skills
 /plugin install startup-credits@agentfx-skills
+/plugin install b2b-growth@agentfx-skills
 ```
 
 CLI tool coming soon for npm/npx installation.
@@ -45,6 +46,7 @@ Skills are just markdown files with YAML frontmatter. See [./template](./templat
 
 **Startup & Business**
 - [startup-credits](./skills/startup-credits) - Discover and apply for startup credits (requires website + deck)
+- [b2b-growth](./skills/b2b-growth) - Proven B2B SaaS growth tactics across paid ads, organic, and outbound
 
 *More coming soon*
 
