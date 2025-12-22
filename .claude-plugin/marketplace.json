@@ -1,0 +1,32 @@
+{
+  "name": "agentfx-skills",
+  "owner": {
+    "name": "hyperfx.ai",
+    "email": "admin@hyperfx.ai"
+  },
+  "metadata": {
+    "description": "AgentFX agent skills collection",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "trading-skills",
+      "description": "Trading and financial market agent skills",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/polymarket"
+      ]
+    },
+    {
+      "name": "startup-credits",
+      "description": "Autonomous AI agent skill for discovering, applying for, and managing startup credits",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/startup-credits"
+      ]
+    }
+  ]
+}
+
