@@ -237,7 +237,7 @@ We welcome contributions! Here's how to contribute:
 Clone and use anywhere:
 
 ```bash
-git clone https://github.com/hyperfx/agentfx.git
+git clone https://github.com/hyperfx-ai/agentfx-skills.git
 ```
 
 CLI tool coming soon for npm/npx installation.

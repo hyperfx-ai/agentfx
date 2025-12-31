@@ -5,35 +5,68 @@
     "email": "admin@hyperfx.ai"
   },
   "metadata": {
-    "description": "AgentFX agent skills collection",
-    "version": "1.0.0"
+    "description": "AgentFX - The AI Agent Component Library",
+    "version": "1.1.0"
   },
   "plugins": [
     {
-      "name": "trading-skills",
-      "description": "Trading and financial market agent skills",
+      "name": "polymarket",
+      "description": "Algorithmic trading skills for prediction markets",
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/polymarket"
+        "./polymarket/news-monitoring",
+        "./polymarket/scalp-trading",
+        "./polymarket/arbitrage-scanner",
+        "./polymarket/position-management"
       ]
     },
     {
-      "name": "startup-credits",
-      "description": "Autonomous AI agent skill for discovering, applying for, and managing startup credits",
+      "name": "startups",
+      "description": "Skills for early-stage startup operations and resource management",
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/startup-credits"
+        "./startups/credit-discovery",
+        "./startups/credit-application"
       ]
     },
     {
       "name": "b2b-growth",
-      "description": "Proven B2B SaaS growth tactics across paid ads, organic, and outbound",
+      "description": "Proven B2B SaaS growth tactics across paid ads, cold outbound, and organic content",
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/b2b-growth"
+        "./b2b-growth/paid-ads",
+        "./b2b-growth/cold-outbound",
+        "./b2b-growth/organic-content"
+      ]
+    },
+    {
+      "name": "content",
+      "description": "Skills for creating high-quality content that prioritizes clarity and simplicity",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./content/clear-content"
+      ]
+    },
+    {
+      "name": "figma",
+      "description": "Convert Figma designs to pixel-perfect code using the Figma Model Context Protocol",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./figma/figma-to-code"
+      ]
+    },
+    {
+      "name": "nextjs",
+      "description": "Skills for building, optimizing, and maintaining Next.js applications",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./nextjs-seo/nextjs-seo"
       ]
     }
   ]
