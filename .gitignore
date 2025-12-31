@@ -3,3 +3,9 @@ __pycache__/
 .idea/
 .vscode/
 
+# Internal files not for public repo
+.internal/
+
+
+
+

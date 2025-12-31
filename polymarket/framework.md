@@ -1,7 +1,6 @@
 '''# Polymarket AI Agent: Core Framework (v3.0 - Real-Time News & Scalp Trading)
 
-**Version**: 3.0
-**Author**: Manus AI
+**Version**: 3.0  
 **Core Philosophy**: The agent is a **news-reactive scalp trader** that profits from short-term price movements caused by new information. It treats Polymarket as a high-frequency financial market, not a long-term betting platform. Arbitrage is a secondary, opportunistic strategy.
 
 ---
