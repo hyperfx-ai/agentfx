@@ -21,6 +21,7 @@ A curated collection of verified skills and resources for AI development. Works 
   - [Startups](#startups)
   - [B2B Growth](#b2b-growth)
   - [Content](#content)
+  - [Figma](#figma)
   - [Next.js](#nextjs)
 - [Getting Started](#getting-started)
 - [Creating Skills](#creating-skills)
@@ -72,6 +73,12 @@ Proven B2B SaaS growth tactics with copy-paste templates across paid, outbound, 
 Skills for creating high-quality content that prioritizes clarity and simplicity. [Learn more →](./content)
 
 * [clear-content](./content/clear-content) - Generate clear, direct content for blogs, social media, and marketing copy.
+
+### Figma
+
+Skills for converting Figma designs into pixel-perfect code using the Figma Model Context Protocol. [Learn more →](./figma)
+
+* [figma-to-code](./figma/figma-to-code) - Systematically convert Figma designs to production-ready code with iterative validation.
 
 ### Next.js
 
